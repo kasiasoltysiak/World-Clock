@@ -1,6 +1,12 @@
-body {
-  background-color: ghostwhite;
-}
 h1 {
   text-align: center;
+}
+.container {
+  max-width: 600px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: beige;
+  border-radius: 20px;
+  padding: 20px;
 }
