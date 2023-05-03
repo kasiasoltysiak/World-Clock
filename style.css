@@ -14,8 +14,9 @@ body {
 }
 h1 {
   text-align: center;
-  font-size: 28px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px;
 }
 h2 {
   margin: 0 0 5px 0;
@@ -25,9 +26,10 @@ select {
   display: block;
   width: 100%;
   border-radius: 20px;
-  padding: 8px;
+  padding: 6px;
   border: none;
-  background-color: #f2f2ed;
+  font-size: 14px;
+  margin: 30px 0 10px;
 }
 .city {
   display: flex;
@@ -37,6 +39,7 @@ select {
 }
 .city:last-child {
   border-bottom: none;
+  padding-bottom: 20px;
 }
 .date {
   font-size: 14px;
@@ -58,7 +61,6 @@ footer {
   color: #f2f2ed;
   padding: 8px;
 }
-
 footer a {
   text-decoration: none;
   color: #e0ca2b;

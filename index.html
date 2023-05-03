@@ -5,19 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"
-      integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.js"
-      integrity="sha512-dsRCB/kf1H0CMbLPpDj/A9DoP8OvKt1kJsSM/iabaHw2oYd7550+g8mOfgwq53VrSuRl+CqitpjH7Fj05ya8CQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
+
+    <title>World Clock</title>
   </head>
   <body>
     <div class="container">
@@ -27,23 +18,23 @@
         <option value="london">London 🇬🇧</option>
         <option value="amsterdam">Amsterdam 🇳🇱</option>
       </select>
-      <div class="city">
+      <div class="city" id="new-york">
         <div>
-          <h2>Los Angeles</h2>
+          <h2>New York</h2>
           <div class="date">August 15th 2022</div>
         </div>
-        <div class="time">1:48:15 <small>AM</small></div>
+        <div class="time">1:48:15 <small id="meridian">AM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="amsterdam">
         <div>
           <h2>Amsterdam</h2>
           <div class="date">August 15th 2022</div>
         </div>
         <div class="time">9:48:15 <small>AM</small></div>
       </div>
-      <div class="city">
+      <div class="city" id="kuala-lumpur">
         <div>
-          <h2>Berlin</h2>
+          <h2>Kuala Lumpur</h2>
           <div class="date">August 15th 2022</div>
         </div>
         <div class="time">9:48:15 <small>AM</small></div>
