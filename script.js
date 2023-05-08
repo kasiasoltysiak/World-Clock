@@ -55,6 +55,7 @@ function updateCity(event) {
             "hh:mm:ss[<small>]A[</small>]"
           )}</div>
         </div>
+        <a href="/"> < all cities</a>
   `;
 }
 
